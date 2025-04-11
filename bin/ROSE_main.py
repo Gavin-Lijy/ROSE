@@ -473,8 +473,8 @@ def main():
     
     #calling the gene mapper
     time.sleep(60)
-    superTableFile = "%s/%s_SuperStitched.table.txt" % (outFolder,inputName)
-    allTableFile = "%s/%s_AllStitched.table.txt" % (outFolder,inputName)
+    superTableFile = "%s%s_SuperStitched.table.txt" % (outFolder,inputName)
+    allTableFile = "%s%s_AllStitched.table.txt" % (outFolder,inputName)
 
     suffixScript = ''
     if options.control: suffixScript = '-c'
